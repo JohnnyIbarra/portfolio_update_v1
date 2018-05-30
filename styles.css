@@ -76,12 +76,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
-profile-image tag name {
 
-}
-header tag name {
-
-}
 .tag {
   background-color: #efefef;
   color: black;
