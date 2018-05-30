@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -22,31 +21,32 @@
     <header>
       <img src="images/me.jpg" alt="Picture of Johnny Ibarra" class="profile-image">
       <h1 class="tag name">Hello, I’m Johnny.</h1>
-      <p class="tag location">My home is Salt Lake City, Utah.</p>
     </header>
 
-    <main class="flex">
+		<main class="flex">
       <div class="card">
-        <h2>Background</h2>
-				<p>Hello! My name is Johnny Jesse Ibarra. I am 26 years old and live in Salt Lake City, Utah. I first got into coding when I was younger
-					and wanted to update my myspace page, fast forward 10+ years and I finally decided that I would want a change in career and thought coding would be a great direction to take since I enjoyed it so much when I was younger. I hope on continuing my education into mobile applications development as well. I would love to become a professional iOS developer in the future.</p>
-      </div> 
+				<div>
+					<section>
+						<h1 class="contentTitle">Contact</h1>
+						<hr>
+						<form action="mailto:JohnnhJesseIbarra@gmail.com" method="post" enctype="text/plain">
+							<div>
+								<span>Name</span>
+								<input id="name" type="text" name="name" placeholder="John Doe" />
+								<span>Email</span>
+								<input id="email" type="text" name="email" placeholder="Example@me.com" />
+								<span>Message</span>
+								<textarea id="feedback" name="feedback"></textarea>
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+		</main>
 
-      <div class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>iOS</li>
-          <li>Python</li>
-        </ul>
-        <p>My goal is to get an internship at one of the top tech company's.</p>
-      </div> 
 
-    </main>
-    <footer>
+		<footer>
       <ul>
         <li><a href="https://www.linkedin.com/in/johnnyibarra" class="social linkedin">LinkedIn</a></li>
         <li><a href="https://github.com/JohnnyIbarra" class="social github">Github</a></li>

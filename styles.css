@@ -211,3 +211,45 @@ a.social:hover {
 
 }
 
+/* Contact CSS */
+form {
+	padding: 26px 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1.5px solid whitesmoke;
+}
+
+input[type=text]:focus {
+	border: 3px solid cadetblue;
+}
+
+input::placeholder {
+	color: silver;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea#feedback {
+	width: 100%;
+	height: 200px;
+	padding: 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1.5px solid whitesmoke;
+}
+
+input[type=submit] {
+			background-color: cadetblue;
+			color: white;
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 15px;
+			padding: 12px 25px;
+			border: none;
+			cursor: pointer;
+}
